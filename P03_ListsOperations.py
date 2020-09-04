@@ -1,14 +1,12 @@
-#Author: OMKAR PATHAK
 #This program gives examples about various list operations
 
 #Syntax: list[start: end: step]
 
 myList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-#index    0  1  2  3  4  5  6  7  8
-#        -9 -8 -7 -6 -5 -4 -3 -2 -1
+print_value="First Element"
 
 #List Slicing
-print('Original List:',myList)
+print(myList)
 print('First Element:',myList[0]) #Prints the first element of the list or 0th element of the list
 print('Element at 2nd Index position:',myList[2]) #Prints the 2nd element of the list
 print('Elements from 0th Index to 4th Index:',myList[0: 5]) #Prints elements of the list from 0th index to 4th index. IT DOESN'T INCLUDE THE LAST INDEX
